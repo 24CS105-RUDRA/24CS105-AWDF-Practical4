@@ -3,7 +3,7 @@
  * CSPIT - Computer Science & Engineering
  * Course: Advanced Web Development Frameworks (ITUE301)
  * Practical 4: Building a RESTful API with Node.js and Express
- * Student: Dharm Lakhani (24CS046)
+ * Student: Rudra Vaghela (24CS105)
  */
 
 const express = require('express');
@@ -100,7 +100,7 @@ const validateTaskId = (req, res, next) => {
 app.get('/', (req, res) => {
   res.status(200).json({
     message: 'Welcome to Task Manager RESTful API (Practical 4)',
-    author: 'Dharm Lakhani (24CS046)',
+    author: 'Rudra Vaghela (24CS105)',
     course: 'ITUE301: Advanced Web Development Frameworks',
     version: '1.0.0',
     endpoints: {

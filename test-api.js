@@ -24,7 +24,7 @@ async function request(path, options = {}) {
 async function runTests() {
   console.log('===============================================================');
   console.log('  Practical 4: Express RESTful API Automated Verification Test ');
-  console.log('  Student: Dharm Lakhani (24CS046) | ITUE301                        ');
+  console.log('  Student: Rudra Vaghela (24CS105) | ITUE301                        ');
   console.log('===============================================================\n');
 
   let passed = 0;
